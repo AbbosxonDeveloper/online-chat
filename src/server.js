@@ -1,7 +1,7 @@
 import express from "express";
 import fs from 'fs'
 import path from "path";
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 5000
 
 import userRouter from './routers/user.router.js'
 import postRouter from './routers/post.router.js'
