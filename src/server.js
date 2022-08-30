@@ -1,7 +1,7 @@
 import express from "express";
 import fs from 'fs'
 import path from "path";
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 3000
 
 import userRouter from './routers/user.router.js'
 import postRouter from './routers/post.router.js'
@@ -35,4 +35,4 @@ app.use((error, req, res, next) => {
     }
 })
 
-app.listen(PORT, () => console.log('http://localhost:5000'))
+app.listen(PORT, () => console.log('http://localhost:3000'))
